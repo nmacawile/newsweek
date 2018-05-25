@@ -5,4 +5,4 @@ My attempt to copy Newsweek's layout using Bootstrap 4.
 
 [Original layout](http://web.archive.org/web/20180524235252/http://www.newsweek.com/)
 
-Preview
+[Preview](https://htmlpreview.github.io/?https://github.com/nmacawile/newsweek/blob/master/index.html)
