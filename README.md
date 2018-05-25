@@ -1,4 +1,4 @@
-# PROJECT: BUILDING WITH RESPONSIVE DESIGN
+# PROJECT: USING BOOTSTRAP
 My attempt to copy Newsweek's layout using Bootstrap 4.
 
 [Project page](https://www.theodinproject.com/courses/html5-and-css3/lessons/using-bootstrap)
