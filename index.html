@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html>
+  <head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsweek</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Alfa+Slab+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+  </head>     
+
+  <body class="bg-light">
+    <div class="wrapper">
+
+      <header id="header" class="bg-white">
+        <nav class="navbar navbar-dark justify-content-between" id="topbar">
+
+          <div class="navbar-nav dropdown text-uppercase">
+            <a class="nav-link dropdown-toggle font-weight-bold text-white" href="#" data-toggle="dropdown">
+              U.S. Edition <i class="fas fa-chevron-down"></i>
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Middle East</a>
+              <a class="dropdown-item" href="#">日本</a>
+              <a class="dropdown-item" href="#">한국</a>
+
+              <a class="dropdown-item" href="#">Pakistan</a>
+
+              <a class="dropdown-item" href="#">Polska</a>
+
+              <a class="dropdown-item" href="#">România</a>
+            </div>
+          </div>
+
+          <div class="navbar-nav btn-group d-flex flex-row">
+            <button type="button" class="btn btn-dark rounded-0 text-white font-weight-bold" id="signin-button">
+              SIGN IN
+            </button>
+             <button type="button" class="btn btn-light rounded-0 font-weight-bold" id="subscribe-button">
+              SUBSCRIBE <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>            
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-dark py-0" id="logo-navbar">
+          <a href="#" id="brand" class="navbar-brand py-0">Newsweek</a>
+          <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#sections-nav">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+        </nav>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-white p-0" id="sections-navbar">          
+          <ul class="navbar-nav collapse navbar-collapse nav-justified font-weight-bold" id="sections-nav">
+            <li class="nav-item">
+              <div class="input-group" id="search-form">
+                <input type="text" class="form-control border-0" placeholder="Search">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary border-0" type="button"><i class="fas fa-search fa-lg"></i></button>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">U.S.</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">World</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Business</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Tech & Science</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Culture</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Sports</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Health</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Opinion</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link" style="color: green;">Green Rankings</a>
+            </li>
+          </ul>          
+        </nav>
+      </header>
+
+
+      <main class="main bg-white clearfix">
+        <div class="headlines float-left col-lg-9 col-md-12 col-sm-12 col-xs-12 p-0">
+          <section class="featured section float-left col-md-5 col-sm-12 col-xs-12">
+            <h2 class="section-heading">Featured Stories</h2>
+            <article class="story">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525781987/tnwlayout/sky-lights-space-dark.jpg.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">U.S.</a>
+                </div>
+              </div>
+              <h4><a href="#">Weinstein Surrenders to New York Police</a></h4>
+              <p class="body">
+                Harvey Weinstein surrendered to police following a monthslong investigation led by the Manhattan District Attorney's Office.
+              </p>
+              <ul class="related">
+                <li><h6 class="related-story"><a href="#">Farrow: Clinton Tried to Snub Interview Over Weinstein</a></h6>
+              </ul>
+            </article>
+            <article class="story">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782070/tnwlayout/background-berries-berry-blackberries-87818.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">World</a>
+                </div>
+              </div>
+              <h4><a href="#">Russia Conducts Longest Surface-to-air Missile Test</a></h4>
+              <p class="body">
+                The S-500 struck a target 299 miles away.
+              </p>
+              <ul class="related">
+                <li><h6 class="related-story"><a href="#">Russian Missile Downed MH17, Investigators Say</a></h6>
+              </ul>
+            </article>
+            <article class="story">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782354/tnwlayout/agriculture-arable-clouds-countryside.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">U.S.</a>
+                </div>
+              </div>
+              <h4><a href="#">Trump Nominates Immigration Hardliner for Refugee Post</a></h4>
+              <p class="body">
+                Immigration advocate and founder of America's Voice Frank Sharry called the nomination "unbelievable."
+              </p>
+              <ul class="related">
+                <li><h6 class="related-story"><a href="#">Trump: Cut Foreign Aid to Stop Illegal Immigration</a></h6>
+              </ul>
+            </article>
+            <article class="story">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782385/tnwlayout/sunrise-sky-clouds-sun-40907.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">U.S.</a>
+                </div>
+              </div>
+              <h4><a href="#">MLK Jr.’s Son Responds to Steve Bannon’s Trump Claim</a></h4>
+              <p class="body">
+                Martin Luther King III talked to Newsweek.
+              </p>
+              <ul class="related">
+                <li><h6 class="related-story"><a href="#">Steve Bannon: MLK Would Be Proud of Trump</a></h6>
+              </ul>
+            </article>            
+          </section>
+
+          <section class="top section float-left col-md-7 col-sm-12 col-xs-12">
+            <h2 class="section-heading">Top Story</h2>
+            <article class="story">
+              <div class="picture-wrapper-square">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525781996/tnwlayout/pexels-photo-735647.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">U.S.</a>
+                </div>
+              </div>
+              <h3><a href="#">TRUMP WASN'T CONFIDENT ENOUGH TO MEET KIM: NORTH KOREA</a></h3>
+              <p class="body">
+                Saying the cancellation was "unexpected," Pyongyang remains willing to meet the U.S. "any time," the foreign ministry statement said.
+              </p>
+              <ul class="related">
+                <li><h6 class="related-story"><a href="#">Who Blew Up the Summit with Kim Jong Un? (Hint: Bolton)</a></h6>
+              </ul>
+            </article>            
+          </section>
+
+          <section class="more-top section float-left col-md-7 col-sm-12 col-xs-12">
+            <h2 class="section-heading sr-only">More Top Stories</h2>
+            <div class="divider"></div>
+            <article class="story media">
+              <a href="#" class="picture-wrapper-md media-left mr-2">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782032/tnwlayout/pexels-photo-726478.jpg">
+              </a>
+              <div class="media-body">
+                <h6 class="media-heading"><a href="#">Ireland Abortion Referendum Divides the Country</a></h6>
+                <p>Irish citizens could repeal the anti-abortion eighth amendment of the constitution on May 25.</p>
+              </div>
+            </article>
+
+            <article class="story media">
+              <a href="#" class="picture-wrapper-md media-left mr-2">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782132/tnwlayout/pexels-photo-634694.jpg">
+              </a>
+              <div class="media-body">
+                <h6 class="media-heading"><a href="#">Why Democrats Can't Win 2018 Without Bernie</a></h6>
+                <p>The American public is warming to Bernie Sanders's brand of democratic socialism. So why do his candidates keep losing?</p>
+              </div>
+            </article>
+
+            <article class="story media">
+              <a href="#" class="picture-wrapper-md media-left mr-2">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782060/tnwlayout/pexels-photo-325185.jpg">
+              </a>
+              <div class="media-body">
+                <h6 class="media-heading"><a href="#">North Korea's Nuclear Site Demolition Was a Stunt</a></h6>
+                <p>Trump canceled the planned summit with Kim Jong Un less than 24 hours after the country's nuclear site was supposedly demolished.</p>
+              </div>
+            </article>
+
+            <article class="story media">
+              <a href="#" class="picture-wrapper-md media-left mr-2">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782363/tnwlayout/pexels-photo-813011.jpg">
+              </a>
+              <div class="media-body">
+                <h6 class="media-heading"><a href="#">Broidy's Emails Hacked By Ex-Spies, Suit Claims</a></h6>
+                <p>Elliot Broidy's leaked emails and documents have led to damning reports about his business practices and influence on President Trump.</p>
+              </div>
+            </article>
+
+            <article class="story media">
+              <a href="#" class="picture-wrapper-md media-left mr-2">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782371/tnwlayout/pexels-photo-534249.jpg">
+              </a>
+              <div class="media-body">
+                <h6 class="media-heading"><a href="#">U.S. Gave Israel Jerusalem, Will Golan Heights Be Next?</a></h6>
+                <p>Israel first occupied Syria's Golan Heights during the 1967 Six-Day War and annexed it in 1981 without international recognition.</p>
+              </div>
+            </article>
+
+            <article class="story media">
+              <a href="#" class="picture-wrapper-md media-left mr-2">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782340/tnwlayout/pexels-photo-413960.jpg">
+              </a>
+              <div class="media-body">
+                <h6 class="media-heading"><a href="#">Israeli Intelligence Firm Spied on U.S. Activist</a></h6>
+                <p>A secretive Israeli firm compiled a dossier on Sarsour and her family.</p>
+              </div>
+            </article>
+
+            <article class="story media">
+              <a href="#" class="picture-wrapper-md media-left mr-2">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782044/tnwlayout/pexels-photo-355465.jpg">
+              </a>
+              <div class="media-body">
+                <h6 class="media-heading"><a href="#">How Much Climate Change Came From the Asteroid Impact?</a></h6>
+                <p>Tiny fish remains were time capsules of climate change.</p>
+              </div>
+            </article>
+
+          </section>
+
+        </div>        
+
+        <section class="opinion section float-left col-lg-3 col-md-12 col-sm-12 col-xs-12">
+          <h2 class="section-heading">Opinion</h2>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782089/tnwlayout/pexels-photo-274974.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Why Is India Rejecting The Taj Mahal?</a></h6>
+              <p class="byline text-uppercase">By <a href="#" class="author">SHASHI THAROOR</a> | <a href="#" class="category">Opinion</a></p>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525781987/tnwlayout/sky-lights-space-dark.jpg.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Robert Reich: Trump Is A Conman For The Super-Rich</a></h6>
+              <p class="byline text-uppercase">By <a href="#" class="author">ROBERT REICH</a> | <a href="#" class="category">Opinion</a></p>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782070/tnwlayout/background-berries-berry-blackberries-87818.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Will Women Bring Trump—Like Berlusconi— Down?</a></h6>
+              <p class="byline text-uppercase">By <a href="#" class="author">RULA JEBREAL</a> | <a href="#" class="category">Opinion</a></p>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782354/tnwlayout/agriculture-arable-clouds-countryside.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">We Won't Achieve Peace With North Korea Without China</a></h6>
+              <p class="byline text-uppercase">By <a href="#" class="author">ALBERT WACHTEL</a> AND <a href="#" class="author">JONATHAN WACHTEL</a> | <a href="#" class="category">Opinion</a></p>
+            </div>
+          </article>
+
+        </section>
+
+
+        <section class="latest section float-left col-lg-3 col-md-12 col-sm-12 col-xs-12">
+          <h2 class="section-heading">Latest News</h2>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782385/tnwlayout/sunrise-sky-clouds-sun-40907.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Flynn Twitter Account 'Hacked,' Says Son</a></h6>         
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525781996/tnwlayout/pexels-photo-735647.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Antarctica's Giant Canyons Could Make Melting Worse</a></h6>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782032/tnwlayout/pexels-photo-726478.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Amber Alert Issued For 14 Month Old In Imminent Danger</a></h6>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782132/tnwlayout/pexels-photo-634694.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Music Video Doctor Sued Over Brain Damage</a></h6>
+            </div>
+          </article>
+
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782060/tnwlayout/pexels-photo-325185.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">These Birds Survived the Dinosaur-Killing Asteroid</a></h6>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782363/tnwlayout/pexels-photo-813011.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Kanye West Paid $85K For Whitney Houston Bathroom Photo</a></h6>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782371/tnwlayout/pexels-photo-534249.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">Are You Affected by Fiat Chrysler's Massive Recall?</a></h6>
+            </div>
+          </article>
+          <article class="story media">
+            <a href="#" class="picture-wrapper-sm media-left mr-2">
+              <img src="https://res.cloudinary.com/nmac/image/upload/v1525782340/tnwlayout/pexels-photo-413960.jpg">
+            </a>
+            <div class="media-body">
+              <h6 class="media-heading"><a href="#">MH17 Downing Linked To Russian Officer ‘Orion’</a></h6>
+            </div>
+          </article>
+        </section>
+
+        <div class="clearfix"></div>
+
+        <div class="magazine d-flex flex-row flex-wrap px-0 pb-2">
+
+          <section class="cover mag-section col-xs-12 col-sm-12 col-md-3 col-lg-3 px-0">
+            <h2 class="section-heading hidden">Cover Page</h2>
+            <article class="cover col-xs-12 col-sm-12 col-md-12 col-lg-12">
+              <div class="picture-wrapper-mag">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782112/tnwlayout/pexels-photo-847393.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">June 01 Issue</a>
+                </div>
+              </div>
+              <a href="#" class="mag-features-link">See All Features <i class="fas fa-chevron-right"></i></a>
+            </article>
+          </section>
+
+          <section class="mag-section col-xs-12 col-sm-12 col-md-9 col-lg-9 px-0">
+            <h2 class="section-heading-centered d-flex">
+              <span class="heading-logo">N</span> In The Magazine
+            </h2>
+            <div class="d-flex flex-row flex-wrap">
+              <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a href="#" class="picture-wrapper-square"><img src="https://res.cloudinary.com/nmac/image/upload/v1525782016/tnwlayout/pexels-photo-593666.jpg"></a>
+                <p class="category"><span class="mag-cat">New World</span><a href="#">Tech & Science</a></p>
+                <h5><a href="#">East Africa Cave Changes Story of Human Evolution</a></h5>
+              </article>
+              <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a href="#" class="picture-wrapper-square"><img src="https://res.cloudinary.com/nmac/image/upload/v1525782083/tnwlayout/pexels-photo-337909.jpg"></a>
+                <p class="category"><span class="mag-cat">Cover</span><a href="#">U.S.</a></p>
+                <h5><a href="#">Why Democrats Can't Win 2018 Without Bernie</a></h5>
+              </article>
+              <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+                <a href="#" class="picture-wrapper-square"><img src="https://res.cloudinary.com/nmac/image/upload/v1525782009/tnwlayout/volcanic-eruption-eruption-volcano-volcanism-73828.jpg"></a>
+                <p class="category"><span class="mag-cat">Downtime</span><a href="#">Culture</a></p>
+                <h5><a href="#">50 Books to Read This Summer</a></h5>
+              </article>
+            </div>
+            
+          </section>
+
+          <section class="mag-section col-xs-12 col-sm-12 col-md-12 col-lg-12 px-0">
+            <h2 class="section-heading-centered sr-only">In The Magazine</h2>
+            <div class="d-flex flex-row flex-wrap">
+              <article class="mag-story col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <a href="#" class="picture-wrapper-square"><img src="https://res.cloudinary.com/nmac/image/upload/v1525782044/tnwlayout/pexels-photo-355465.jpg"></a>
+                <p class="category"><span class="mag-cat">Downloads</span><a href="#">Opinion</a></p>
+                <h5><a href="#">Before Trump, Oliver North Was Dishonest—and Beloved</a></h5>
+              </article>
+              <article class="mag-story col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <a href="#" class="picture-wrapper-square"><img src="https://res.cloudinary.com/nmac/image/upload/v1525782089/tnwlayout/pexels-photo-274974.jpg"></a>
+                <p class="category"><span class="mag-cat">Cover</span><a href="#">Analysis</a></p>
+                <h5><a href="#">Kim Jong Un and the Art of the Deal</a></h5>
+              </article>
+              <article class="mag-story col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <a href="#" class="picture-wrapper-square"><img src="https://res.cloudinary.com/nmac/image/upload/v1525781987/tnwlayout/sky-lights-space-dark.jpg.jpg"></a>
+                <p class="category"><span class="mag-cat">New World</span><a href="#">Tech & Science</a></p>
+                <h5><a href="#">Mysteries of Water Solved in New Study</a></h5>
+              </article>
+              <article class="mag-story col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                <a href="#" class="picture-wrapper-square"><img src="https://res.cloudinary.com/nmac/image/upload/v1525782070/tnwlayout/background-berries-berry-blackberries-87818.jpg"></a>
+                <p class="category"><span class="mag-cat">Big Shots</span></p>
+                <h5><a href="#">A HARD RAIN</a></h5>
+              </article>
+            </div>
+            
+          </section>
+        </div>
+
+        <section class="editors-pick section-picks col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="section-heading-centered d-flex">
+            <span class="heading-logo">N</span> Editor's Pick
+          </h2>
+          <div class="grid d-flex flex-row flex-wrap">
+
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782354/tnwlayout/agriculture-arable-clouds-countryside.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">World</a>
+                </div>
+              </div>
+              <h4><a href="#">Pingu Illustrator Tony Wolf Dies, Age 88</a></h4>
+              <p class="body">
+                Noot noot in peace, Tony....
+              </p>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782385/tnwlayout/sunrise-sky-clouds-sun-40907.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">Tech & Science</a>
+                </div>
+              </div>
+              <h4><a href="#">East Africa Cave Changes Story of Human Evolution</a></h4>
+              <p class="body">
+                Archaeologists have long ignored the region, but the new discovery is rewriting history.
+              </p>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525781996/tnwlayout/pexels-photo-735647.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">U.S.</a>
+                </div>
+              </div>
+              <h4><a href="#">Nearly 30 Percent of GOP Thinks Trump Won't Run in 2020</a></h4>
+              <p class="body">
+                Most signs seem to point toward Trump running for a second term, but a good portion of the GOP thinks he might not.
+              </p>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782032/tnwlayout/pexels-photo-726478.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">U.S.</a>
+                </div>
+              </div>
+              <h4><a href="#">People Don’t Want Products Branded ‘Vegan’: Survey</a></h4>
+              <p class="body">
+                People also find the words ‘diet’ and ‘sugar-free’ unappealing.
+              </p>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782132/tnwlayout/pexels-photo-634694.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">World</a>
+                </div>
+              </div>
+              <h4><a href="#">Woman Gagged and Taped to Chair by Male Co-workers</a></h4>
+              <p class="body">
+                “I am sure they meant no harm and that was the boys just being boys,” DeeAnn Fitzpatrick’s manager said.
+              </p>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782060/tnwlayout/pexels-photo-325185.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">World</a>
+                </div>
+              </div>
+              <h4><a href="#">Unopened Wine Older Than America Going to Auction</a></h4>
+              <p class="body">
+                Vin Jaune means "yellow wine" and it was made over two centuries ago.
+              </p>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782363/tnwlayout/pexels-photo-813011.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">Tech & Science</a>
+                </div>
+              </div>
+              <h4><a href="#">Study Shows When Shock Therapy Is Best for Depression</a></h4>
+              <p class="body">
+                It may be time to end the stigma against the approach.
+              </p>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-6 col-lg-3">
+              <div class="picture-wrapper-lg">
+                <a href="#">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782371/tnwlayout/pexels-photo-534249.jpg">
+                </a>
+                <div class="category-tag">
+                  <a href="#">U.S.</a>
+                </div>
+              </div>
+              <h4><a href="#">Former Homeless Teen Nicknamed Harvard Gets to Harvard</a></h4>
+              <p class="body">
+                Richard Jenkins said his situation inspired him to study.
+              </p>
+            </article>
+          </div>
+        </section>
+
+
+        <section class="section-picks col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="section-picks-heading"><a href="#">U.S.</a></h2>
+          <div class="grid d-flex flex-row flex-wrap">
+            <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <a href="#" class="picture-wrapper-lg">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782340/tnwlayout/pexels-photo-413960.jpg">
+              </a>
+              <h4><a href="#">Amber Alert Issued For 14 Month Old In Imminent Danger</a></h4>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <a href="#" class="picture-wrapper-lg">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782070/tnwlayout/background-berries-berry-blackberries-87818.jpg">
+              </a>
+              <h4><a href="#">Music Video Doctor Sued Over Brain Damage</a></h4>
+            </article>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782044/tnwlayout/pexels-photo-355465.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">Harvey Weinstein Accusers and More React to His Arrest</a></h6>
+                </div>
+              </article>
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782089/tnwlayout/pexels-photo-274974.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">Kanye West Paid $85K For Whitney Houston Bathroom Photo</a></h6>
+                </div>
+              </article>
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525781987/tnwlayout/sky-lights-space-dark.jpg.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">Are You Affected by Fiat Chrysler's Massive Recall?</a></h6>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-picks col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="section-picks-heading"><a href="#">World</a></h2>
+          <div class="grid d-flex flex-row flex-wrap">
+            <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <a href="#" class="picture-wrapper-lg">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782340/tnwlayout/pexels-photo-413960.jpg">
+              </a>
+              <h4><a href="#">MH17 Downing Linked To Russian Officer ‘Orion’</a></h4>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <a href="#" class="picture-wrapper-lg">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782070/tnwlayout/background-berries-berry-blackberries-87818.jpg">
+              </a>
+              <h4><a href="#">Taiwan Scrambles Jets to Track Chinese Bombers</a></h4>
+            </article>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782044/tnwlayout/pexels-photo-355465.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">Passenger Jet Strikes Ryanair Plane on Runway</a></h6>
+                </div>
+              </article>
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782089/tnwlayout/pexels-photo-274974.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">Steam on iPhone: Apple Blocks New App</a></h6>
+                </div>
+              </article>
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525781987/tnwlayout/sky-lights-space-dark.jpg.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">Human Remains Spewed into Air After Accident</a></h6>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-picks col-xs-12 col-sm-12 col-md-12 col-lg-12">
+          <h2 class="section-picks-heading"><a href="#">Business</a></h2>
+          <div class="grid d-flex flex-row flex-wrap">
+            <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <a href="#" class="picture-wrapper-lg">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782340/tnwlayout/pexels-photo-413960.jpg">
+              </a>
+              <h4><a href="#">Highest-Grossing Movie Franchises</a></h4>
+            </article>
+            <article class="mag-story col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <a href="#" class="picture-wrapper-lg">
+                <img src="https://res.cloudinary.com/nmac/image/upload/v1525782070/tnwlayout/background-berries-berry-blackberries-87818.jpg">
+              </a>
+              <h4><a href="#">Trump Loves Golfing but His Courses Aren't Benefiting</a></h4>
+            </article>
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782044/tnwlayout/pexels-photo-355465.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">Michael Avenatti to Critics: Accept His ‘Huge’ Success</a></h6>
+                </div>
+              </article>
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525782089/tnwlayout/pexels-photo-274974.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">illy Coffee Cans Recalled Over Explosion Fears</a></h6>
+                </div>
+              </article>
+              <article class="story media">
+                <a href="#" class="picture-wrapper-sm media-left mr-2">
+                  <img src="https://res.cloudinary.com/nmac/image/upload/v1525781987/tnwlayout/sky-lights-space-dark.jpg.jpg">
+                </a>
+                <div class="media-body">
+                  <h6 class="media-heading"><a href="#">U.S. May Lift Sanctions if North Korea Dismantles Nukes</a></h6>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer bg-white">
+        <div class="col-md-12 footer-upper">
+          <div class="left">
+            <h2 id="footer-brand">Newsweek</h2>
+            <small>© 2018 <a href="#">NEWSWEEK LLC</a></small>
+          </div>
+
+          <nav class="nav footer-social-nav">
+            <a class="nav-link" href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-google-plus-g fa-2x"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-instagram fa-2x"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-tumblr fa-2x"></i></a>
+            <a class="nav-link" href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+          </nav>
+        </div>
+        <nav class="nav footer-nav">
+          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#">Corrections</a>
+          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#">Newsweek Media Group</a>
+          <a class="nav-link" href="#">Travel</a>
+          <a class="nav-link" href="#">Advertise</a>
+          <a class="nav-link" href="#">Copyright</a>
+          <a class="nav-link" href="#">Terms & Conditions</a>
+          <a class="nav-link" href="#">Privacy Policy</a>
+          <a class="nav-link" href="#">Cookie Policy</a>
+          <a class="nav-link" href="#">Terms of Sale</a>
+          <a class="nav-link" href="#">Archive</a>
+        </nav>
+      </footer>
+    </div>
+  </body>
+</html>
