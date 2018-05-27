@@ -237,7 +237,7 @@ a:hover {
 }
 
 .story h3 a:hover,
-.more-top h6 a:hover,
+.more-stories h6 a:hover,
 .story h4 a:hover,
 .mag-story h5 a:hover,
 .mag-story h4 a:hover {
@@ -397,7 +397,7 @@ a:hover {
     order: 1;
   }
 
-  .more-top {
+  .more-stories {
     order: 2;
   }
 
